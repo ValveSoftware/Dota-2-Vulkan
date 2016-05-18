@@ -7,8 +7,9 @@ Notes:
 * Before filing a bug, please make sure your system meets the minimum requirements and you have a supported driver installed.
 * Minimum requirements for Dota 2 Vulkan:
  * Windows 7/8/10 64-bit: NVIDIA 600-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver), Intel Skylake (driver TBD)
- * Linux: NVIDIA 600-series+ (364.16+ driver), AMD GCN 1.2 (TBD driver), Intel Broadwell+ (mesa git)
-* 2GB of GPU Memory required - may experience crashes with < 2GB of GPU memory.
+ * Linux 64-bit: NVIDIA 600-series+ (364.16+ driver), AMD GCN 1.2 (TBD driver), Intel Broadwell+ (mesa git)
+ * 2GB of GPU Memory required - may experience crashes with < 2GB of GPU memory.
+ * Vulkan is not supported on Mac OS X.
 
 If the game fails to launch with a "missing executable" error, please use Steam to [verify the integrity](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335) of the game's files in order to acquire the missing binaries.
 
