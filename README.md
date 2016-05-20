@@ -5,9 +5,11 @@ Notes:
 
 * This tracker is only for issues impacting the Vulkan version of Dota 2.  For non-Vulkan Dota 2 Linux/OS X issues please use https://github.com/ValveSoftware/Dota-2.  For all other Dota 2 bugs, use http://dev.dota2.com/.
 * Before filing a bug, please make sure your system meets the minimum requirements and you have a supported driver installed.
+* Please make sure to opt-in to the Steam Client Beta for the latest Steam Vulkan Overlay (fixes performance issue with Steam Overlay) 
+* Enable with the -vulkan launch option after downloading the Vulkan Beta DLC.  Remove -dx9/-dx11/-gl (if present) from any previous launch options.
 * Minimum requirements for Dota 2 Vulkan:
- * Windows 7/8/10 64-bit: NVIDIA 600-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver), Intel Skylake (driver TBD)
- * Linux 64-bit: NVIDIA 600-series+ (364.16+ driver), AMD GCN 1.2 (TBD driver), Intel Broadwell+ (mesa git)
+ * Windows 7/8/10 64-bit: NVIDIA 600-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver)
+ * Linux 64-bit: NVIDIA 600-series+ (364.16+ driver), AMD GCN 1.2 (16.20.3 driver)
  * 2GB of GPU Memory required - may experience crashes with < 2GB of GPU memory.
  * Vulkan is not supported on Mac OS X.
 
