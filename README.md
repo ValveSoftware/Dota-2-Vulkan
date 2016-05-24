@@ -15,6 +15,12 @@ Notes:
 
 If the game fails to launch with a "missing executable" error, please use Steam to [verify the integrity](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335) of the game's files in order to acquire the missing binaries.
 
+Known Issues
+------------
+
+* The first time you run with Vulkan you may experience short stutters while the engine caches shaders on disk. After playing through or watching a match, these stutters should go away.
+*     There is a known issue on Linux with NVIDIA GPUs where tearing can be observed even when vertical sync is enabled. NVIDIA is aware of the issue and it will be fixed in the future through a driver update.
+
 Conduct
 -------
 
