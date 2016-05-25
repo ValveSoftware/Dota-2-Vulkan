@@ -8,7 +8,8 @@ Notes:
 * Please make sure to opt-in to the Steam Client Beta for the latest Steam Vulkan Overlay (fixes performance issue with Steam Overlay) 
 * Enable with the -vulkan launch option after downloading the Vulkan Beta DLC.  Remove -dx9/-dx11/-gl (if present) from any previous launch options. You will know if you're properly running Vulkan if Vulkan-specific commands are available in the console, such as 'vulkan_memgr_print'
 * Minimum requirements for Dota 2 Vulkan:
- * Windows 7/8/10 64-bit: NVIDIA 600-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver)
+ * Windows 7/8/10 64-bit: NVIDIA Kepler-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver)
+   * NOTE: NVIDIA __Fermi GPUs are not supported__, this includes some models in the 600/700/800 series, so please make sure you have a Kepler (GKxxx), Maxwell (GMxxx), or Pascal (GPxxx) GPU before posting a bug.  This is especially confusing because some models such as the GT730 have both a Fermi and Kepler model.  You can check for sure by looking up your [NVIDIA PCI Device ID] (https://pci-ids.ucw.cz/read/PC/10de).  The Device ID can be found in Steam -> Help -> System Information.
  * Linux 64-bit: NVIDIA 600-series+ (364.16+ driver), AMD GCN 1.2 (16.20.3 driver)
  * 2GB of GPU Memory required - may experience crashes with < 2GB of GPU memory.
  * Vulkan is not supported on Mac OS X.
