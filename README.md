@@ -1,5 +1,5 @@
 # Dota-2-Vulkan
-Tracker for issues specific to the Vulkan version of Dota 2 on Windows, Linux, and macOS.
+Tracker for issues specific to the Vulkan version of Dota 2 on Windows, Linux and macOS.
 
 Notes:
 
