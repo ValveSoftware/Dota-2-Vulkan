@@ -11,7 +11,7 @@ Notes:
     * Windows 7/8/10 64-bit: NVIDIA Kepler-series+ (365.19+ driver), AMD 7700+ (Crimson 16.5.2.1+ driver)
     * Linux 64-bit: NVIDIA Kepler-series+ (364.16+ driver), AMD GCN 1.2 (16.20.3 driver)
     * macOS 10.13.4+ with a Metal-capable GPU
-    * __NOTE: NVIDIA's driver does not support Vulkan on Fermi GPUs__, this includes some low end models in the 600/700/800 series, so please make sure you have a Kepler (GKxxx), Maxwell (GMxxx), or Pascal (GPxxx) GPU before posting a bug.  This is especially confusing because some models such as the GT730 have both a Fermi and Kepler model.  You can check for sure by looking up your [NVIDIA PCI Device ID] (https://pci-ids.ucw.cz/read/PC/10de).  The Device ID can be found in ```Steam``` -> ```Help``` -> ```System Information```.
+    * __NOTE: NVIDIA's driver does not support Vulkan on Fermi GPUs__, this includes some low end models in the 600/700/800 series, so please make sure you have a Kepler (GKxxx), Maxwell (GMxxx), Pascal (GPxxx) or Turing (TUxxx) GPU before posting a bug.  This is especially confusing because some models such as the GT730 have both a Fermi and Kepler model.  You can check for sure by looking up your [NVIDIA PCI Device ID] (https://pci-ids.ucw.cz/read/PC/10de).  The Device ID can be found in ```Steam``` -> ```Help``` -> ```System Information```.
     * 2GB of GPU Memory required - may experience crashes with < 2GB of GPU memory.
 
 If the game fails to launch with a "missing executable" error, please use Steam to [verify the integrity](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335) of the game's files in order to acquire the missing binaries.
